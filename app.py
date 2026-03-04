@@ -19,7 +19,13 @@ app = Flask(__name__)
 CORS(app, origins=[
     "https://resume-screening-sandy.vercel.app"
 ])
-
+@app.get("/")
+def home():
+    return {
+        "status": "ok",
+        "service": "Resume Screening API",
+        "endpoints": ["/health", "/api/screen"]
+    }
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
