@@ -4,7 +4,7 @@ import ResultsPanel from './components/ResultsPanel'
 import JobDescriptionPanel from './components/JobDescriptionPanel'
 import RulesManager from './components/RulesManager'
 
-const API_BASE = 'http://localhost:5000/api'
+const API_BASE = 'https://resume-screening-4-xxok.onrender.com/api'
 
 function App() {
   const [results, setResults] = useState(null)
