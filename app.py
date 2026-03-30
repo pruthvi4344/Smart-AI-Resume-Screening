@@ -17,7 +17,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 CORS(app, origins=[
-    "https://resume-screening-sandy.vercel.app"
+    "https://resume-screening-sandy.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
 ])
 @app.get("/")
 def home():

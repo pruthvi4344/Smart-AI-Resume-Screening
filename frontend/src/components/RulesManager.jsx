@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_BASE = 'https://resume-screening-4-xxok.onrender.com/api'
+const API_BASE = 'http://localhost:5000/api'
 
 export default function RulesManager({ jobCategory, jobTitle, onProceed, onBack }) {
     const [rules, setRules] = useState([])
