@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_BASE = 'https://resume-screening-4-xxok.onrender.com/api'
+const API_BASE = 'http://localhost:5000/api'
 
 export default function JobDescriptionPanel({ jobDescriptions, selectedJD, onSelectJD, onJobDescriptionsUpdated, onProceed }) {
     const [showAddForm, setShowAddForm] = useState(false)
