@@ -1,0 +1,27 @@
+# Python
+venv/
+venv312/
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temp
+.tmp/
+*.log
+
+# Env files
+.env
+.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
