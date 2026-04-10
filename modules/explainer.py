@@ -6,7 +6,7 @@ for resume screening decisions. Combines rule-based reasons
 and ML feature contributions into clear, structured output.
 """
 
-
+# explanation generation module for resume screening decisions, combining rule-based and ML insights into clear, structured explanations.
 class ExplanationGenerator:
     """
     Generates structured, human-readable explanations for
