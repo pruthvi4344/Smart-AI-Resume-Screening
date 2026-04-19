@@ -36,7 +36,7 @@ class ExplanationGenerator:
         decision = hybrid_decision["final_decision"]
         confidence = hybrid_decision["confidence"]
 
-        # Build rule explanations
+        # build rule explanations with clear pass/fail status and criticality indicators
         rule_explanations = []
         for rule in hybrid_decision["details"]["rule_results"]:
             status = "✅ PASS" if rule["passed"] else "❌ FAIL"
