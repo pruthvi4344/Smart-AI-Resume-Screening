@@ -13,6 +13,7 @@ class ExplanationGenerator:
     resume screening decisions.
     """
 
+# generating explanations that combine rule-based and ML insights into a clear, structured format for resume screening decisions.
     def generate(self, hybrid_decision, features):
         """
         Generate a full explanation for a screening decision.
