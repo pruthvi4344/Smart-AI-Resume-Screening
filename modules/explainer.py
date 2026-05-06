@@ -168,6 +168,7 @@ class ExplanationGenerator:
             "full_text": full_text,
         }
 
+# build comprehensive full-text explanation combining all components into a structured report.
     def _build_full_text(self, summary, decision_basis, rule_explanations,
                          ml_explanation, positive_factors, negative_factors,
                          recommendation):
